@@ -11,4 +11,8 @@ app.use(express.json())
 db.on('error',(error) => console.error(error))
 db.once(`open`, () => console.log(`Connected to DB`))
 
+const modelRouter = require(`../routes/model.route.js`)
+app.use(`/subscribers`, modelRouter)
+
+
 app.listen(port, ()=> console.log(`Listen on ${port}`))
