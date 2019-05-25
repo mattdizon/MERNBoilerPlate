@@ -1,0 +1,24 @@
+{
+  "name": "MERNBoilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend/src && nodemon server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdizon/MERNBoilerPlate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdizon/MERNBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/mattdizon/MERNBoilerPlate#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
