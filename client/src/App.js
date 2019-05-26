@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import { withRouter, Route, Switch, HashRouter } from "react-router-dom";
+import { connect } from "react-redux";
 import './App.css';
 
 function App() {
